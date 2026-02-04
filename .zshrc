@@ -23,6 +23,8 @@ export GOBIN=/home/vkosev/go/bin
 export PATH=$PATH:/home/vkosev/go/bin
 
 alias d='dirs -v'
+alias gst='git status'
+
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
 # Use emacs keybindings even if our EDITOR is set to vi
